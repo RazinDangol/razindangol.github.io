@@ -4,63 +4,53 @@
 
         <h2>About me</h2>
 
-        <p>BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla</p>
+        <p>I am a self taught Python Programmer. I am interested in Data science and Machine Learning. I am currently learning C programming language through edx.</p>
 
         <h2>Contact</h2>
 
-        <ul>
+        <ul style="list-style: none">
             <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
-            <li>Website：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
+            <li>Website:<a href="{{ site.website }}">{{ site.website }}</a></li>
+            <li><span class='octicon octicon-mark-github'></span>GitHub：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
+            <li><i class="fa fa-facebook" aria-hidden="true"></i>Facebook<a href="{{ site.facebook }}">{{ site.facebook }}</a></li>
         </ul>
 
-        <h2>Skill Keywords</h2>
-
-        {% if site.skill_software_keywords %}
+        <h2>Skills</h2>
+        {% if site.skill_programming_language_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Software Engineer Keywords</h3>
+                <h3 class="panel-title">Programming Languages</h3>
             </div>
             <div class="panel-body">
-                {% for keyword in site.skill_software_keywords %}
+                {% for keyword in site.programming_language_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>
         </div>
         {% endif %}
-
-        {% if site.skill_j2ee_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">J2EE Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_j2ee_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_mobile_app_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Mobile Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_mobile_app_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
+        
         {% if site.skill_web_keywords %}
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">Web Developer Keywords</h3>
+                <h3 class="panel-title">Web Development</h3>
             </div>
             <div class="panel-body">
                 {% for keyword in site.skill_web_keywords %}
+                <button class="btn btn-default" type="button">{{ keyword }}</button>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        
+
+        {% if site.skill_technologies_keywords %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Technologies and Software</h3>
+            </div>
+            <div class="panel-body">
+                {% for keyword in site.skill_technologies_keywords %}
                 <button class="btn btn-default" type="button">{{ keyword }}</button>
                 {% endfor %}
             </div>

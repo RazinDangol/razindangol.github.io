@@ -6,13 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Rajin Dangol's Personal Space # ex. I m Chuan
+title: Rajin Dangol's Personal Site # ex. I m Chuan
 name: Razin Dangol # ex. DONGChuan
 email: dangolrajin@gmail.com
 location: Kathmandu, Nepal # ex. Nice, France
-company: 
-company_url: my_company_website
 github_url: https://github.com/RazinDangol # ex. https://github.com/DONGChuan
+facebook: https://facebook.com/DaRazinX
+website: http://www.rajin.com.np
 description: This is my personal space on the web
 favicon: favicon.png # Image must be in assets/images
 
@@ -45,8 +45,7 @@ kramdown:
   input: GFM
   enable_coderay: true
 
-# Disque
-disque: my_disque_settings # ex. httpdongchuangithubio.disqus.com
+
 
 # Pagination
 paginate: 10
@@ -67,10 +66,6 @@ navs:
     label: Blog
 
   -
-    href: /bookmark
-    label: Bookmark
-
-  -
     href: /about
     label: About
 
@@ -85,7 +80,6 @@ analytics :
 
 
 # For about.html. Fell free to create your own!
-skill_software_keywords: [Java, C, C++, Qt, Python, MySQL, Oracle, SQLite, PL/SQL, Design Patterns]
-skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, AngularJS, NodeJS, ExpressJS, MongoDB, Redis, PHP, Symfony, Boostrap]
-skill_mobile_app_keywords: [Android, Sketch UI Desgin]
+skill_programming_language_keywords: [Python,C,Javascript]
+skill_web_keywords: [HTML,CSS,Javascript,Bootstrap,Django,Flask,Celery,Redis,Jquery]
+skill_technologies_keywords: [Git,Photoshop,Dreamweaver]
