@@ -83,3 +83,5 @@ analytics :
 skill_programming_language_keywords: [Python,C,Javascript, Java]
 skill_web_keywords: [HTML,CSS,Javascript,Bootstrap,Django,Flask,Celery,Redis,Jquery, Spring, ]
 skill_technologies_keywords: [Git,Photoshop,Dreamweaver]
+
+theme: jekyll-theme-cayman
