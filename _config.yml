@@ -7,11 +7,14 @@
 
 # Site settings
 title: Rajin Dangol's Personal Site # ex. I m Chuan
-name: Razin Dangol # ex. DONGChuan
+name: RazinDangol 
 email: dangolrajin@gmail.com
 location: Pittsburgh, PA, USA 
 github_url: https://github.com/RazinDangol 
 facebook: https://facebook.com/razindangol
+facebook-name: razindangol
+linkedin: https://linkedin.com/in/rajindangol
+linkedin-name: rajindangol
 website: http://www.rajin.com.np
 description: My personal space on the web
 favicon: favicon.png # Image must be in assets/images
